@@ -1,0 +1,50 @@
+name: offline_music_player
+description: "Simple Offline Music Player using Flutter"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 1.0.8
+
+  # ===== AUDIO =====
+  just_audio: 0.9.36
+  audio_service: 0.18.12
+  audio_session: 0.1.18
+
+  # ===== STATE MANAGEMENT =====
+  provider: 6.1.1
+  rxdart: 0.27.7
+  share_plus: ^7.2.1
+
+  # ===== STORAGE =====
+  shared_preferences: 2.2.2
+  path_provider: 2.1.1
+
+  # ===== FILE & PERMISSION =====
+  permission_handler: 11.1.0
+  on_audio_query: 2.9.0
+
+  # ===== UI =====
+  palette_generator: 0.3.3+3
+  cached_network_image: 3.3.0
+  metadata_god: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+  flutter_launcher_icons: 0.13.1
+  mocktail: ^1.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/sample_songs/
+    - assets/images/
