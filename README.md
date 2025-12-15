@@ -1,4 +1,3 @@
-````markdown
 # 🎵 Offline Music Player (Flutter)
 
 **Offline Music Player** là ứng dụng nghe nhạc **offline** được xây dựng bằng **Flutter**, cho phép phát nhạc trực tiếp từ bộ nhớ thiết bị với giao diện hiện đại, quản lý album người dùng, yêu thích bài hát và nhiều tính năng âm thanh nâng cao.
@@ -175,12 +174,12 @@ lib/
     ├── playlist_card.dart
     ├── progress_bar.dart
     └── song_tile.dart
-````
+
 
 ---
 
 ---
-
+```
 ## 🏗 Kiến trúc ứng dụng
 
 * **State Management**: Provider
